@@ -7,6 +7,7 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
 dist
 dist-ssr
@@ -22,3 +23,36 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Production build
+/build
+/dist
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+Thumbs.db
+
+# Coverage directory (if you add tests)
+coverage
+.nyc_output
+
+# Temporary files
+*.tmp
+*.temp
+.cache
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
